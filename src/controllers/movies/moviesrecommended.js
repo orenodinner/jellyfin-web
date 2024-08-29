@@ -226,6 +226,7 @@ function loadSuggestionsTab(view, params, tabContent) {
     loadSuggestions(tabContent, userId);
 }
 
+//ここがタブの名前を返す関数
 function getTabs() {
     return [{
         name: globalize.translate('Movies')
